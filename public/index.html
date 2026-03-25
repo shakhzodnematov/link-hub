@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Professional Link Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Inter font fits the clean corporate style perfectly -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Faded Corporate Background -->
+    <div class="top-bg-image"></div>
+    
+    <main class="app-container">
+        
+        <header class="header-section">
+            <div class="profile-photo-wrapper">
+                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80" alt="Professional Consultant" class="profile-photo">
+            </div>
+            
+            <h1 class="profile-name">SIROJIDDIN</h1>
+            <h2 class="profile-title">Xalqaro Biznes Konsultant</h2>
+            
+            <!-- Quick Action Circles -->
+            <div class="quick-actions">
+                <a href="#" class="action-btn"><i class="fa-solid fa-mobile-screen"></i></a>
+                <a href="#" class="action-btn"><i class="fa-regular fa-envelope"></i></a>
+                <a href="#" class="action-btn"><i class="fa-regular fa-comment-dots"></i></a>
+                <a href="#" class="action-btn"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            
+            <!-- Dynamic Pill Links from Firebase -->
+            <div class="pill-links-container" id="links-container">
+                <div class="loader">Yuklanmoqda...</div>
+            </div>
+        </header>
+
+        <!-- Bottom Contact Card -->
+        <div class="bottom-card">
+            <div class="card-header">
+                <div class="icon-circle">
+                    <i class="fa-solid fa-mobile-screen"></i>
+                </div>
+                <h3>Biz bilan aloqa</h3>
+            </div>
+            
+            <p class="marketing-text">
+                Biznesingiz sotuvlarini 3 barobarga oshirish sirlarini bilib oling. Faqat aniq qadamlar va kafolatlangan natija.
+            </p>
+            
+            <div class="contact-details">
+                <div class="detail-item">
+                    <span class="detail-label">To'g'ridan-to'g'ri bog'lanish</span>
+                    <span class="detail-value">+998 90 123 45 67</span>
+                </div>
+            </div>
+            
+            <!-- Card Bottom Actions -->
+            <div class="card-actions">
+                <button class="icon-action-btn"><i class="fa-solid fa-qrcode"></i></button>
+                <button class="icon-action-btn"><i class="fa-solid fa-arrow-up-from-bracket"></i></button>
+                <div class="spacer"></div>
+                <button class="primary-pill-btn">
+                    Kontaktlarga saqlash <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+        </div>
+
+    </main>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
